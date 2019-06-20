@@ -15,6 +15,7 @@ public class CameraFollow : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        // idk 
         transform.LookAt(player.transform.position + Vector3.up * heightLook);
         transform.position = Vector3.Lerp(transform.position, player.transform.position + Vector3.up * height + player.transform.forward * distance, Time.smoothDeltaTime);
     }

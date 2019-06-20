@@ -1056,7 +1056,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 00b9f82776e13e744bbad95a44a4371b, type: 2}
-  - {fileID: 2100000, guid: 2029a5a2a27b8484bb3e2562d8bbdfa3, type: 2}
+  - {fileID: 2100000, guid: 142a725444e254b49adea259a36536b5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1194,8 +1194,8 @@ GameObject:
   - component: {fileID: 2201625202429245794}
   - component: {fileID: 4239877203001689569}
   m_Layer: 0
-  m_Name: Point Light
-  m_TagString: Untagged
+  m_Name: ActivatableLight
+  m_TagString: ActivatableLight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1225,7 +1225,7 @@ Light:
   serializedVersion: 8
   m_Type: 2
   m_Color: {r: 0.990566, g: 0.9880305, b: 0.55602527, a: 1}
-  m_Intensity: 5
+  m_Intensity: 2.5
   m_Range: 7
   m_SpotAngle: 30
   m_CookieSize: 10
