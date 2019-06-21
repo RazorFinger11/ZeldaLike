@@ -78,6 +78,7 @@ GameObject:
   - component: {fileID: 33676323981785606}
   - component: {fileID: 23416540399722372}
   - component: {fileID: 2266878990418870132}
+  - component: {fileID: 8167899410804441295}
   m_Layer: 0
   m_Name: Mesh19
   m_TagString: Untagged
@@ -159,6 +160,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300036, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8167899410804441295
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060128002114926}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.4159608, y: 1.6961238, z: 0.40865222}
+  m_Size: 0.42531395
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.040329564
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23416540399722372}
+  m_Enabled: 1
 --- !u!1 &1075619045820052
 GameObject:
   m_ObjectHideFlags: 0
@@ -202,6 +222,7 @@ GameObject:
   - component: {fileID: 33030181109522484}
   - component: {fileID: 23591409062773662}
   - component: {fileID: 782511539285724842}
+  - component: {fileID: 8328517582015713736}
   m_Layer: 0
   m_Name: Mesh18
   m_TagString: Untagged
@@ -282,6 +303,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300034, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8328517582015713736
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1088794949637172}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.29999998, y: 2.5527623, z: 0.29999998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.034933176
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23591409062773662}
+  m_Enabled: 1
 --- !u!1 &1121160054622784
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,6 +427,7 @@ GameObject:
   - component: {fileID: 33499190179155448}
   - component: {fileID: 23008432082584100}
   - component: {fileID: 674530488474359794}
+  - component: {fileID: 8493455726379370726}
   m_Layer: 0
   m_Name: Mesh13
   m_TagString: Untagged
@@ -467,6 +508,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300024, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8493455726379370726
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156924712569518}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.2039998, y: 2.5527623, z: 0.29999998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.034933176
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23008432082584100}
+  m_Enabled: 1
 --- !u!1 &1166699591188104
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +570,7 @@ GameObject:
   - component: {fileID: 33799593502343486}
   - component: {fileID: 23461244273112804}
   - component: {fileID: 1034633799118579702}
+  - component: {fileID: 8730700062962556852}
   m_Layer: 0
   m_Name: Mesh12
   m_TagString: Untagged
@@ -590,6 +651,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300022, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8730700062962556852
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1189090143034410}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.1002445, y: 1.2468562, z: 0.40840864}
+  m_Size: 0.39248943
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.044624507
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23461244273112804}
+  m_Enabled: 1
 --- !u!1 &1215460675890218
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +682,7 @@ GameObject:
   - component: {fileID: 33929726710391556}
   - component: {fileID: 23295984587949020}
   - component: {fileID: 3625975356235239548}
+  - component: {fileID: 8247978915767163335}
   m_Layer: 0
   m_Name: Mesh7
   m_TagString: Untagged
@@ -682,6 +763,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300012, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8247978915767163335
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215460675890218}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40375525, y: 1.2468562, z: 3.095591}
+  m_Size: 0.39248943
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07675519
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23295984587949020}
+  m_Enabled: 1
 --- !u!1 &1258500053789786
 GameObject:
   m_ObjectHideFlags: 0
@@ -694,6 +794,7 @@ GameObject:
   - component: {fileID: 33488186014455738}
   - component: {fileID: 23814164956545078}
   - component: {fileID: 1681235880914595575}
+  - component: {fileID: 5380938385316565861}
   m_Layer: 0
   m_Name: Mesh22
   m_TagString: Untagged
@@ -774,6 +875,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300042, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &5380938385316565861
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1258500053789786}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.095591, y: 1.2468562, z: 3.1002445}
+  m_Size: 0.39248943
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07675519
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23814164956545078}
+  m_Enabled: 1
 --- !u!1 &1277538543215824
 GameObject:
   m_ObjectHideFlags: 0
@@ -945,6 +1065,7 @@ GameObject:
   - component: {fileID: 33190601458831116}
   - component: {fileID: 23183151605537696}
   - component: {fileID: 4229761707120894688}
+  - component: {fileID: 9045570399777709324}
   m_Layer: 0
   m_Name: Mesh23
   m_TagString: Untagged
@@ -1025,6 +1146,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300044, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &9045570399777709324
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415634409707734}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.2039998, y: 2.5527623, z: 3.2039998}
+  m_Size: 0.5999999
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.036246892
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23183151605537696}
+  m_Enabled: 1
 --- !u!1 &1421906539794876
 GameObject:
   m_ObjectHideFlags: 0
@@ -1068,6 +1208,7 @@ GameObject:
   - component: {fileID: 33470945957970612}
   - component: {fileID: 23519278375715832}
   - component: {fileID: 4842639216488270431}
+  - component: {fileID: 265118831803793437}
   m_Layer: 0
   m_Name: Mesh8
   m_TagString: Untagged
@@ -1148,6 +1289,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300014, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &265118831803793437
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424950424020668}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.29999998, y: 2.5527623, z: 3.2039998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.032376494
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23519278375715832}
+  m_Enabled: 1
 --- !u!1 &1469153921883554
 GameObject:
   m_ObjectHideFlags: 0
@@ -1191,6 +1351,7 @@ GameObject:
   - component: {fileID: 33069459322083846}
   - component: {fileID: 23855027334993860}
   - component: {fileID: 5148899657939507802}
+  - component: {fileID: 6423339158967398191}
   m_Layer: 0
   m_Name: Mesh20
   m_TagString: Untagged
@@ -1272,6 +1433,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300038, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &6423339158967398191
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470783105351850}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.088039, y: 0.80526865, z: 3.0953474}
+  m_Size: 0.4253137
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07675519
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23855027334993860}
+  m_Enabled: 1
 --- !u!1 &1495589027594466
 GameObject:
   m_ObjectHideFlags: 0
@@ -1284,6 +1464,7 @@ GameObject:
   - component: {fileID: 33531529111911514}
   - component: {fileID: 23582324624504040}
   - component: {fileID: 3035122733966699672}
+  - component: {fileID: 5518772469955240504}
   m_Layer: 0
   m_Name: Mesh1
   m_TagString: Untagged
@@ -1365,6 +1546,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &5518772469955240504
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495589027594466}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.2039998, y: 0.29999998, z: 3.2039998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.034933176
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23582324624504040}
+  m_Enabled: 1
 --- !u!1 &1504916126071546
 GameObject:
   m_ObjectHideFlags: 0
@@ -1377,6 +1577,7 @@ GameObject:
   - component: {fileID: 33013773979530530}
   - component: {fileID: 23186026456261720}
   - component: {fileID: 1750167827646145615}
+  - component: {fileID: 1906988296092452490}
   m_Layer: 0
   m_Name: Mesh6
   m_TagString: Untagged
@@ -1457,6 +1658,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300010, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &1906988296092452490
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1504916126071546}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40865222, y: 2.124896, z: 3.088039}
+  m_Size: 0.38664913
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.029914152
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23186026456261720}
+  m_Enabled: 1
 --- !u!1 &1555189853663646
 GameObject:
   m_ObjectHideFlags: 0
@@ -1605,6 +1825,7 @@ GameObject:
   - component: {fileID: 33240592378345902}
   - component: {fileID: 23382343850555674}
   - component: {fileID: 4266730641370092905}
+  - component: {fileID: 6306235645758622857}
   m_Layer: 0
   m_Name: Mesh4
   m_TagString: Untagged
@@ -1686,6 +1907,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300006, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &6306235645758622857
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598729928101694}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.040329564
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23382343850555674}
+  m_Enabled: 1
 --- !u!1 &1603385142466304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +1938,7 @@ GameObject:
   - component: {fileID: 33687332873842710}
   - component: {fileID: 23127638029158968}
   - component: {fileID: 7336247564297346720}
+  - component: {fileID: 2221629876811127452}
   m_Layer: 0
   m_Name: Mesh5
   m_TagString: Untagged
@@ -1779,6 +2020,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300008, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &2221629876811127452
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603385142466304}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40865222, y: 0.80526865, z: 3.088039}
+  m_Size: 0.4253137
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.055471536
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23127638029158968}
+  m_Enabled: 1
 --- !u!1 &1605978806117726
 GameObject:
   m_ObjectHideFlags: 0
@@ -1791,6 +2051,7 @@ GameObject:
   - component: {fileID: 33356618449316258}
   - component: {fileID: 23538836261918194}
   - component: {fileID: 3325944663900255541}
+  - component: {fileID: 2922220715156936496}
   m_Layer: 0
   m_Name: Mesh10
   m_TagString: Untagged
@@ -1872,6 +2133,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300018, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &2922220715156936496
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1605978806117726}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.0953474, y: 0.80526865, z: 0.4159608}
+  m_Size: 0.4253137
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.047605727
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23538836261918194}
+  m_Enabled: 1
 --- !u!1 &1618014465157040
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,6 +2164,7 @@ GameObject:
   - component: {fileID: 33932656709230756}
   - component: {fileID: 23252716583025500}
   - component: {fileID: 3894006159087553938}
+  - component: {fileID: 794131500596077235}
   m_Layer: 0
   m_Name: Mesh17
   m_TagString: Untagged
@@ -1964,6 +2245,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300032, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &794131500596077235
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1618014465157040}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40840864, y: 1.2468562, z: 0.40375525}
+  m_Size: 0.39248943
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.041737624
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23252716583025500}
+  m_Enabled: 1
 --- !u!1 &1621083443559206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2069,6 +2369,7 @@ GameObject:
   - component: {fileID: 33779345823758026}
   - component: {fileID: 23606002679362806}
   - component: {fileID: 3285857544422783990}
+  - component: {fileID: 5136619193046805416}
   m_Layer: 0
   m_Name: Mesh24
   m_TagString: Untagged
@@ -2150,6 +2451,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300046, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &5136619193046805416
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652991831948746}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.088039, y: 1.6961238, z: 3.0953474}
+  m_Size: 0.42531395
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07675519
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23606002679362806}
+  m_Enabled: 1
 --- !u!1 &1653345158315756
 GameObject:
   m_ObjectHideFlags: 0
@@ -2162,6 +2482,7 @@ GameObject:
   - component: {fileID: 33445297911316066}
   - component: {fileID: 23743205314302160}
   - component: {fileID: 4029725327282551621}
+  - component: {fileID: 507503023863469531}
   m_Layer: 0
   m_Name: Mesh9
   m_TagString: Untagged
@@ -2243,6 +2564,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300016, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &507503023863469531
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1653345158315756}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.40865222, y: 1.6961238, z: 3.088039}
+  m_Size: 0.42531395
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.043169275
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23743205314302160}
+  m_Enabled: 1
 --- !u!1 &1659625790096574
 GameObject:
   m_ObjectHideFlags: 0
@@ -2255,6 +2595,7 @@ GameObject:
   - component: {fileID: 33003722047663066}
   - component: {fileID: 23667163561039896}
   - component: {fileID: 7978049653903936991}
+  - component: {fileID: 8528929053348362734}
   m_Layer: 0
   m_Name: Mesh15
   m_TagString: Untagged
@@ -2336,6 +2677,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300028, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8528929053348362734
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1659625790096574}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.4159608, y: 0.80526865, z: 0.40865222}
+  m_Size: 0.4253137
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.04913172
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23667163561039896}
+  m_Enabled: 1
 --- !u!1 &1666054092553956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2708,7 @@ GameObject:
   - component: {fileID: 33498794848559470}
   - component: {fileID: 23216293851744316}
   - component: {fileID: 6169977451620459596}
+  - component: {fileID: 2565661843604876791}
   m_Layer: 0
   m_Name: Mesh14
   m_TagString: Untagged
@@ -2429,6 +2790,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300026, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &2565661843604876791
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666054092553956}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.0953474, y: 1.6961238, z: 0.4159608}
+  m_Size: 0.42531395
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.047605727
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23216293851744316}
+  m_Enabled: 1
 --- !u!1 &1674992904082154
 GameObject:
   m_ObjectHideFlags: 0
@@ -2441,6 +2821,7 @@ GameObject:
   - component: {fileID: 33078476490989044}
   - component: {fileID: 23799509345387756}
   - component: {fileID: 518200597895215925}
+  - component: {fileID: 8508853038524523677}
   m_Layer: 0
   m_Name: Mesh2
   m_TagString: Untagged
@@ -2522,6 +2903,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8508853038524523677
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1674992904082154}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.29999998, y: 0.29999998, z: 3.2039998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07675519
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23799509345387756}
+  m_Enabled: 1
 --- !u!1 &1676070122045164
 GameObject:
   m_ObjectHideFlags: 0
@@ -2534,6 +2934,7 @@ GameObject:
   - component: {fileID: 33373947949363382}
   - component: {fileID: 23125355523931860}
   - component: {fileID: 8700079267267480860}
+  - component: {fileID: 5541272091302703310}
   m_Layer: 0
   m_Name: Mesh25
   m_TagString: Untagged
@@ -2617,6 +3018,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300048, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &5541272091302703310
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676070122045164}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 1.7519999, y: 1.3799999, z: 1.7519999}
+  m_Size: 2.9039998
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.024171054
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23125355523931860}
+  m_Enabled: 1
 --- !u!1 &1688103218872816
 GameObject:
   m_ObjectHideFlags: 0
@@ -2629,6 +3049,7 @@ GameObject:
   - component: {fileID: 33089249367433784}
   - component: {fileID: 23021337477724642}
   - component: {fileID: 2439955109179284426}
+  - component: {fileID: 4953455650738632757}
   m_Layer: 0
   m_Name: Mesh21
   m_TagString: Untagged
@@ -2709,6 +3130,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300040, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &4953455650738632757
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688103218872816}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.088039, y: 2.124896, z: 3.0953474}
+  m_Size: 0.38664913
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.07675519
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23021337477724642}
+  m_Enabled: 1
 --- !u!1 &1704612243528772
 GameObject:
   m_ObjectHideFlags: 0
@@ -2818,6 +3258,7 @@ GameObject:
   - component: {fileID: 33436436374723114}
   - component: {fileID: 23291258773726692}
   - component: {fileID: 810991317534626311}
+  - component: {fileID: 8742101753441234715}
   m_Layer: 0
   m_Name: Mesh16
   m_TagString: Untagged
@@ -2898,6 +3339,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300030, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &8742101753441234715
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789988843311558}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.4159608, y: 2.124896, z: 0.40865222}
+  m_Size: 0.38664913
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.046103325
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23291258773726692}
+  m_Enabled: 1
 --- !u!1 &1793935844921242
 GameObject:
   m_ObjectHideFlags: 0
@@ -3003,6 +3463,7 @@ GameObject:
   - component: {fileID: 33913743639310048}
   - component: {fileID: 23068390428110008}
   - component: {fileID: 7085189658953248330}
+  - component: {fileID: 5754923200935723272}
   m_Layer: 0
   m_Name: Mesh3
   m_TagString: Untagged
@@ -3084,6 +3545,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300004, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &5754923200935723272
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829015842236646}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.2039998, y: 0.29999998, z: 0.29999998}
+  m_Size: 0.59999996
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.043169275
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23068390428110008}
+  m_Enabled: 1
 --- !u!1 &1831338603754170
 GameObject:
   m_ObjectHideFlags: 0
@@ -3189,6 +3669,7 @@ GameObject:
   - component: {fileID: 33579038466003606}
   - component: {fileID: 23327749982536474}
   - component: {fileID: 7580819221431024768}
+  - component: {fileID: 6467178409146534433}
   m_Layer: 0
   m_Name: Mesh11
   m_TagString: Untagged
@@ -3269,3 +3750,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300020, guid: 9d407aed3eedef64a8053224525e9d3a, type: 3}
+--- !u!205 &6467178409146534433
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1899303022220512}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 3.0953474, y: 2.124896, z: 0.4159608}
+  m_Size: 0.38664913
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.047605727
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23327749982536474}
+  m_Enabled: 1

@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 33581066029466444}
   - component: {fileID: 23538243855570662}
   - component: {fileID: 9106614230030576329}
+  - component: {fileID: 3938789845536334556}
   m_Layer: 0
   m_Name: Mesh6
   m_TagString: Untagged
@@ -93,6 +94,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300010, guid: 953fc32792bf25d4198c645e33e37ce7, type: 3}
+--- !u!205 &3938789845536334556
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012183794996280}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -2.376227, y: 0.46006972, z: 0.01457276}
+  m_Size: 0.91096354
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23538243855570662}
+  m_Enabled: 1
 --- !u!1 &1047466536749856
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,6 +125,7 @@ GameObject:
   - component: {fileID: 33413204935888166}
   - component: {fileID: 23187829072722862}
   - component: {fileID: 4428325609107152739}
+  - component: {fileID: 1985928837417846338}
   m_Layer: 0
   m_Name: Mesh2
   m_TagString: Untagged
@@ -185,6 +206,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300002, guid: 953fc32792bf25d4198c645e33e37ce7, type: 3}
+--- !u!205 &1985928837417846338
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1047466536749856}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.962792, y: 1.770527, z: 1.7384781}
+  m_Size: 3.8601892
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23187829072722862}
+  m_Enabled: 1
 --- !u!1 &1056465625575318
 GameObject:
   m_ObjectHideFlags: 0
@@ -228,6 +268,7 @@ GameObject:
   - component: {fileID: 33214015246907924}
   - component: {fileID: 23283043352153660}
   - component: {fileID: 6003678449082714684}
+  - component: {fileID: 4236320078367061549}
   m_Layer: 0
   m_Name: Mesh5
   m_TagString: Untagged
@@ -309,6 +350,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300008, guid: 953fc32792bf25d4198c645e33e37ce7, type: 3}
+--- !u!205 &4236320078367061549
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292289611426388}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.5045155, y: 0.45348376, z: 0.01457276}
+  m_Size: 0.89975333
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23283043352153660}
+  m_Enabled: 1
 --- !u!1 &1362508652632124
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,6 +478,7 @@ GameObject:
   - component: {fileID: 33078911126483322}
   - component: {fileID: 23494682275942596}
   - component: {fileID: 3667644582176381432}
+  - component: {fileID: 3897670527920166935}
   m_Layer: 0
   m_Name: Mesh1
   m_TagString: Untagged
@@ -501,6 +562,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: 953fc32792bf25d4198c645e33e37ce7, type: 3}
+--- !u!205 &3897670527920166935
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576349533255626}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.954488, y: 0.8876866, z: 1.7365727}
+  m_Size: 4.01786
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.09283114
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23494682275942596}
+  m_Enabled: 1
 --- !u!1 &1736612766697064
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +655,7 @@ GameObject:
   - component: {fileID: 33038911671814546}
   - component: {fileID: 23541947730609966}
   - component: {fileID: 6555652056936342836}
+  - component: {fileID: 7483318301176092497}
   m_Layer: 0
   m_Name: Mesh4
   m_TagString: Untagged
@@ -656,6 +737,25 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300006, guid: 953fc32792bf25d4198c645e33e37ce7, type: 3}
+--- !u!205 &7483318301176092497
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1796183613231554}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -1.5272288, y: 0.44258872, z: 3.4585726}
+  m_Size: 0.91096354
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.7431432
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23541947730609966}
+  m_Enabled: 1
 --- !u!1 &1834859222741948
 GameObject:
   m_ObjectHideFlags: 0
@@ -762,6 +862,7 @@ GameObject:
   - component: {fileID: 33419558657547852}
   - component: {fileID: 23849506547928356}
   - component: {fileID: 2835422559863617105}
+  - component: {fileID: 4847072565576693943}
   m_Layer: 0
   m_Name: Mesh3
   m_TagString: Untagged
@@ -843,3 +944,22 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300004, guid: 953fc32792bf25d4198c645e33e37ce7, type: 3}
+--- !u!205 &4847072565576693943
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951976520267462}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: -2.3989403, y: 0.4360028, z: 3.4585726}
+  m_Size: 0.8997536
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 23849506547928356}
+  m_Enabled: 1
