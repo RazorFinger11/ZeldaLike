@@ -9,13 +9,14 @@ using UnityEngine.AI;
 
 [RequireComponent(typeof(ZombieModel))]
 [RequireComponent(typeof(ZombieView))]
-public class ZombieController : MonoBehaviour
-{
+public class ZombieController : MonoBehaviour {
     [SerializeField] GameObject target;
 
     ZombieModel zombie;
     ZombieView anim;
     ZombieState state;
+
+    public GameObject Target { get => target; set => target = value; }
 
     void Start() {
         zombie = this.GetComponent<ZombieModel>();
@@ -41,7 +42,13 @@ public class ZombieController : MonoBehaviour
                 break;
 
             case ZombieState.Die:
+                state = zombie.Die();
+                anim.Die();
                 break;
         }
+    }
+
+    public void Damage() {
+        state = zombie.Die();
     }
 }

@@ -19,4 +19,8 @@ public class ZombieView : MonoBehaviour
     public void Attack() {
         anim.SetTrigger("Attack");        
     }
+
+    public void Die() {
+        anim.SetTrigger("Die");
+    }
 }

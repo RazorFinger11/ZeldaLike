@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveChan : MonoBehaviour
-{
+public class MoveChan : MonoBehaviour {
     public CharacterController charctrl;
     public Animator anim;
     Vector3 movaxis, turnaxis;
@@ -12,26 +11,22 @@ public class MoveChan : MonoBehaviour
     public float gravity = 20;
     float yresult;
     public GameObject wing;
+    public Collider swordCollider;
+
     // Start is called before the first frame update
-    void Start()
-    {
+    void Start() {
         currentCamera = Camera.main.gameObject;
     }
 
-    void FixedUpdate()
-    {
+    void FixedUpdate() {
         movaxis = new Vector3(Input.GetAxis("Horizontal") * 0.3f, 0, Input.GetAxis("Vertical"));
 
-        if (wing.activeSelf)
-        {
-
+        if (wing.activeSelf) {
             yresult -= gravity / 1.5f * Time.fixedDeltaTime;
             movaxis += Vector3.forward * 0.5F;
         }
-        else
-        {
+        else {
             yresult -= gravity * Time.fixedDeltaTime;
-
         }
 
         Vector3 relativedirection = currentCamera.transform.TransformVector(movaxis);
@@ -44,55 +39,39 @@ public class MoveChan : MonoBehaviour
 
 
         anim.SetFloat("Speed", charctrl.velocity.magnitude);
-        if (wing.activeSelf)
-        {
+        if (wing.activeSelf) {
             Vector3 movfly = new Vector3(movaxis.x, yresult, movaxis.z);
             charctrl.Move(transform.TransformVector(movfly) * 0.1f);
         }
-        else
-        {
-           
+        else {
             Quaternion rottogo = Quaternion.LookRotation(relativeDirectionWOy * 2 + transform.forward);
             transform.rotation = Quaternion.Lerp(transform.rotation, rottogo, Time.fixedDeltaTime * 50);
         }
-        if (Input.GetButtonDown("Fire1"))
-        {
+
+        if (Input.GetButtonDown("Fire1")) {
             anim.SetTrigger("AttackA");
         }
 
-        if (charctrl.isGrounded && Input.GetButton("Jump"))
-        {
+        if (charctrl.isGrounded && Input.GetButton("Jump")) {
             anim.SetTrigger("Jump");
             yresult = jumpspeed;
 
         }
 
-        if (charctrl.isGrounded)
-        {
+        if (charctrl.isGrounded) {
             wing.SetActive(false);
         }
 
-
-
-
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, Vector3.down, out hit, 100))
-        {
+        if (Physics.Raycast(transform.position, Vector3.down, out hit, 100)) {
             anim.SetFloat("JumpHeight", hit.distance);
-            if (hit.distance > 0.2f && Input.GetButtonDown("Jump") && !wing.activeSelf)
-            {
+            if (hit.distance > 0.2f && Input.GetButtonDown("Jump") && !wing.activeSelf) {
                 wing.SetActive(true);
                 return;
             }
-            if (hit.distance > 0.2f && Input.GetButtonDown("Jump") && wing.activeSelf)
-            {
+            if (hit.distance > 0.2f && Input.GetButtonDown("Jump") && wing.activeSelf) {
                 wing.SetActive(false);
             }
-
         }
-
-
-
-
     }
 }

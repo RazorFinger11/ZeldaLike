@@ -6,9 +6,9 @@ using UnityEngine.AI;
 public enum ZombieState { Spawn, Chase, Attack, Die }
 
 [RequireComponent(typeof(NavMeshAgent))]
-public class ZombieModel : MonoBehaviour
-{
+public class ZombieModel : MonoBehaviour {
     NavMeshAgent agent;
+    bool alive = true;
     float timer;
 
     void Start() {
@@ -31,7 +31,7 @@ public class ZombieModel : MonoBehaviour
 
     public ZombieState Chase() {
         agent.isStopped = false;
-        
+
         if (agent.remainingDistance <= agent.stoppingDistance) {
             timer = Time.time + 1f;
             return ZombieState.Attack;
@@ -47,7 +47,20 @@ public class ZombieModel : MonoBehaviour
         if (timer > Time.time) {
             return ZombieState.Attack;
         }
-        
+
         return ZombieState.Chase;
+    }
+
+    public ZombieState Die() {
+        if (alive) {
+            agent.isStopped = true;
+            alive = false;
+            timer = Time.time + 1.2f;
+        }
+        else if (timer < Time.time) {
+            Destroy(this.gameObject);
+        }
+
+        return ZombieState.Die;
     }
 }
