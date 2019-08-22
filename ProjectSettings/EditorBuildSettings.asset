@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: bb13d193f28d9ca4b9bea387907ac141
   - enabled: 1
+    path: Assets/Scenes/Land.unity
+    guid: 89cbc814d582fd3408d8ee6f8d2f7021
+  - enabled: 1
+    path: Assets/Scenes/Big City.unity
+    guid: 0bd6966f243002a4a8017f8b24f97328
+  - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 8850e8b7dbab7554a815933d3cb679c9
   m_configObjects: {}
